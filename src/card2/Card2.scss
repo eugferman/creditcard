@@ -1,0 +1,118 @@
+body{
+  background-color: rgb(212, 212, 212);
+}
+
+
+.main-card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.header-card{
+
+  position: absolute;
+  z-index: 1;
+  h1{
+    text-align: center;
+    width: 350px;
+  }
+
+  p{
+    padding: 10px;
+    text-align: center;
+  }
+
+  input{
+    padding: 10px;
+  }
+  
+}
+
+.card{
+  background-color: #3e9eec;
+  border-radius: 5px;
+  border: 0.5px solid black;
+  padding: 50px;
+  width: 400px;
+  margin-top: 180px;
+  position: absolute;
+  z-index: 3;
+
+  img{
+    width: 100px;
+  }
+}
+
+.form-card{
+  background-color: white;
+  box-shadow: 1px 1px 20px black;
+  border-radius: 5px;
+  margin-top: 300px;
+  width: 600px;
+  height: 400px;
+  position: absolute;
+  z-index: 2;
+
+  form{
+    margin-top: 150px;
+    padding: 30px 50px 50px 50px;
+    
+    button{
+      width: 497px;
+      padding: 10px;
+      margin-top: 5px;
+      border: 0.5px solid black;
+      background-color: #eca13e;
+      color: #000000;
+    }
+
+    button:hover{
+      background: #3e9eec;
+      color: #000000;
+      border: 0.5px solid black;
+    }
+
+    label{
+      margin: 5px 5px 0px 0px;
+    }
+    
+    input{
+      padding: 10px;
+      margin: 5px 5px 0px 0px;
+      border: 0.5px solid black;
+    }
+  
+    input:focus{
+      background: #eca13e;
+      color: #000000;
+    }
+
+    input::placeholder{
+      color: #000000;
+    }
+
+  }
+
+}
+
+.name-input{
+  width: 417px;
+}
+
+.number-input{
+  width: 331px;
+}
+
+.month-input{
+  width: 80px;
+}
+
+.year-input{
+  width: 80px;
+}
+
+.cvv-input{
+  width: 149px;
+}
