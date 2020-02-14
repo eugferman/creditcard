@@ -6,7 +6,7 @@ import Card2 from './card2/Card2.js';
 function App() {
   return (<div className="app-card">
             <div><Card/></div>
-            <div><Card2 /></div>
+            <div className="app-component-card2"><Card2 /></div>
           </div>)
 }
 

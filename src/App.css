@@ -3,3 +3,12 @@
   flex-direction: row;
   justify-content: space-around;
 }
+
+@media only screen and (min-width: 0px) and (max-width: 1250px){
+  .app-card {
+    flex-direction: column;
+  }
+  .app-component-card2{
+    margin-top: 750px;
+  }
+}
